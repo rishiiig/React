@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+@import "./variables.scss";
+@import "./mixins.scss";
+
+@import "./Components/Navbar.scss";
+@import "./Components/Header.scss";

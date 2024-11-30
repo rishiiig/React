@@ -1,0 +1,30 @@
+.app {
+
+    .Navlist {
+        display: flex;
+        justify-content: flex-end;
+        padding: 5px;
+        box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+        // box-shadow: 0px 2px 5px rgb(141, 141, 141);
+        background-color: $navbar_background_color;
+    }
+
+    li {
+        padding: 10px;
+        font-size: 26px;
+
+        &:hover {
+            transition: 0.2s;
+            transform: scale(1.05);
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+
+            &:hover {
+                color: $text_color_on_hover;
+            }
+        }
+    }
+}
