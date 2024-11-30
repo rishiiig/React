@@ -2,7 +2,7 @@ const Datatable = (props) => {
     const { data } = props;
 
     return (
-        <table>
+        <table className="Datatable">
             <thead>
                 <tr>
                     <th>Name</th>
